@@ -13,3 +13,7 @@ function increaseRankBy(n) {
     lis[i].innerHTML = parseInt(lis[i].innerHTML) + 1;
   }
 }
+
+function deepestChild() {
+  return document.getElementById('app').querySelectorAll('grand-node');
+}
